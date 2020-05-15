@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   
+    background-image: linear-gradient(to bottom right, #90be6d, #43aa8b);
+   background-image: url(mrspoy.png);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size:cover;
+    position: absolute;
+}
+
+.mainSection{
+    height: 100px;
+    width: 800px;
+    background-color: black;
+    margin: 20px;
+    margin-top: 250px;
+    border-radius: 30px;
+    
+}
+
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a > i{
+    font-size: 35px;
+    color: grey;
+    padding: 10px;
+    padding-top: 23px;
+}
+
+p{
+    visibility: hidden;
+    
+}
+
+i:hover+p{
+    visibility: visible;
+    color: white;
+    
+}
+
+
+.last{
+    padding-right: 40px;
+}
+
+i:hover{
+    color: white;
+}
+
+
+
+.zoom{
+    transition: transform .2s;
+}
+
+.zoom:hover{
+    
+    transform: scale(1.2);
+}
+
+
+.last{
+    transition: transform .2s;
+}
+
+.last:hover{
+    
+    transform: scale(1.2);
+}
+
+
+.logo{
+    position: relative;
+    top: 30px;
+    left: 30px;
+     transition: transform .2s;
+}
+
+
+
